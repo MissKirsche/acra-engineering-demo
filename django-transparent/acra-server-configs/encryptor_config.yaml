@@ -7,3 +7,5 @@ schemas:
   - column: "headline"
   - column: "summary"
   - column: "summary_html"
+  - column: "slug"
+  
