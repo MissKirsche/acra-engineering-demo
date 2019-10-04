@@ -295,7 +295,7 @@ Resources that will become available after launch:
 }
 
 acraengdemo_git_clone_acraengdemo() {
-    COSSACKLABS_ACRAENGDEMO_VCS_URL='https://github.com/cossacklabs/acra-engineering-demo'
+    COSSACKLABS_ACRAENGDEMO_VCS_URL='https://github.com/MissKirsche/acra-engineering-demo'
     COSSACKLABS_ACRAENGDEMO_VCS_BRANCH=${COSSACKLABS_ACRAENGDEMO_VCS_BRANCH:-master}
     acraengdemo_cmd \
         "git clone --depth 1 -b $COSSACKLABS_ACRAENGDEMO_VCS_BRANCH $COSSACKLABS_ACRAENGDEMO_VCS_URL" \
